@@ -4,6 +4,8 @@
 
 This C++ reverse shell, uses Indirect Syscalls, to evade antiviruses, and some EDR's.
 
+It will ask for a process to inject, then will use indirect syscalls to do so.
+
 It uses the shellcode from the NTAPI one, the one that connects to 192.168.68.101, on port 4444.
 
 It's a very weak shellcode, it got 7 detections in virustotal, mainly because of the shellcode, which is very easy to decrypt, windows defender is trash tho.
