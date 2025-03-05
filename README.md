@@ -2,7 +2,7 @@
 
 **This is for educational purposes ONLY, I am not responsible for what you do with this, you skid**
 
-This C++ reverse shell, uses Indirect Syscalls, to evade antiviruses, and some EDR's.
+This C++ process injector and reverse shell, uses Indirect Syscalls, to evade antiviruses, and some EDR's.
 
 It will ask for a process to inject, then will use indirect syscalls to do so.
 
