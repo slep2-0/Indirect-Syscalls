@@ -1,5 +1,7 @@
 ; Indirect Syscalls FTW
-
+; note - this might not be indirect syscalls - since we are still using the actual syscalls, just jumping to the syscall instruction instead of doing it ourselves.
+; i would recommend fetching the actual syscall as well from im guessing 0x8 offset? i don't know, debug ntdll and look at it yourself.
+; then using that, it's also the best since syscall numbers tend to change with new NTDLL versions, and new SSDT versions. (kernel)
 .data
 
 EXTERN NtOpenProcessSyscall:QWORD
